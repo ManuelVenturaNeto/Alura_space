@@ -1,8 +1,3 @@
-git add .
-git commit -m "alura space"
-git push origin master
+Alura space 
 
-
-
-se não funcionar pode ser necessario um:
-git pull origin master
+Um site desenvolvido na formação de django com a alura para o desenvolvimento de um ambiente que hospeda imagens de corpos celestes
