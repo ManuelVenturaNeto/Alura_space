@@ -3,4 +3,4 @@ from django.apps import AppConfig # type: ignore
 
 class GaleriaConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'galeria'
+    name = 'apps.galeria'

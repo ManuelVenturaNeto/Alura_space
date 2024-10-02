@@ -1,5 +1,5 @@
 from django.contrib import admin # type: ignore
-from galeria.models import Fotografia
+from apps.galeria.models import Fotografia
 
 class ListandoFotografias(admin.ModelAdmin):
     list_display = ("id", "nome", "legenda", "publicada",)
