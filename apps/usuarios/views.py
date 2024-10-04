@@ -1,8 +1,8 @@
 from django.shortcuts import render, redirect # type: ignore
 from apps.usuarios.forms import LoginForms, CadastroForms
-from django.contrib.auth.models import User
-from django.contrib import auth
-from django.contrib import messages
+from django.contrib.auth.models import User # type: ignore
+from django.contrib import auth # type: ignore
+from django.contrib import messages # type: ignore
 
 def login(request):
     form = LoginForms()  

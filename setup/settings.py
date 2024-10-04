@@ -120,8 +120,9 @@ USE_I18N = True
 
 USE_TZ = True
 
-# AWS Settings
+# AWS Configuração
 
+AWS_ACCESS_KEY_ID = str(os.getenv('AWS_ACCESS_KEY_ID'))
 
 AWS_SECRET_ACCESS_KEY = str(os.getenv('AWS_SECRET_ACCESS_KEY'))
 
@@ -134,6 +135,7 @@ AWS_DEFAULT_ACL = 'public-read'
 AWS_S3_OBJECT_PARAMETERS = {
     'CacheControl': 'max-age=86400'
 }
+
 AWS_LOCATION = 'static'
 
 AWS_QUERYSTRING_AUTH = False
@@ -141,7 +143,6 @@ AWS_QUERYSTRING_AUTH = False
 AWS_HEADERS = {
     'Access-Control-Allow-Origin': '*',
 }
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
