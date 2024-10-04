@@ -1,4 +1,4 @@
-from django import forms
+from django import forms # type: ignore
 from apps.galeria.models import Fotografia
 
 class FotografiaForms(forms.ModelForm):

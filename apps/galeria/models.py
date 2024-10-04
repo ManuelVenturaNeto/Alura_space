@@ -1,6 +1,6 @@
 from django.db import models # type: ignore
 from datetime import datetime
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User # type: ignore
 
 class Fotografia(models.Model):
     
